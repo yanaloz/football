@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.football {
+    position: relative;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+}
+.field {
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+}
+.ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.hand {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+}
+.popup {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 150px;
+    left: calc(50% - 100px);
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #0d5a1c;
+    border: 5px solid #0d5a1c;
+}
